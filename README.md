@@ -12,6 +12,31 @@ The final objective is to generate actionable business insights that can help an
 
 ---
 
+## Dataset
+
+This project uses the **Online Retail dataset** from the UCI Machine Learning Repository as the main transactional data source.
+
+The dataset contains transactional records from a UK-based online retail company between December 2010 and December 2011. It includes invoice-level product purchases, customer identifiers, product descriptions, quantities, unit prices, invoice dates, and customer countries.
+
+The original dataset includes the following fields:
+
+- InvoiceNo
+- StockCode
+- Description
+- Quantity
+- InvoiceDate
+- UnitPrice
+- CustomerID
+- Country
+
+To support a more complete analytics workflow, the original dataset will be transformed into a relational database model and enriched with additional simulated business tables such as payments, shipments, and product costs.
+
+These additional fields will allow the project to include profitability analysis, operational analysis, dashboard KPIs, customer segmentation, and predictive modeling.
+
+Dataset source: UCI Machine Learning Repository — Online Retail Dataset.
+
+---
+
 ## Business Problem
 
 An e-commerce company wants to better understand its customers, sales performance, and product profitability.
