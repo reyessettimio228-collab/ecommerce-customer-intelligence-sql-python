@@ -96,7 +96,8 @@ ecommerce-customer-intelligence-sql-python/
 │   │   └── ecommerce_raw.csv
 │   ├── processed/
 │   │   └── ecommerce_cleaned.csv
-│   └── data_dictionary.md
+│   ├── data_dictionary.md
+│   └── source.md
 │
 ├── database/
 │   ├── 01_schema_design.sql
